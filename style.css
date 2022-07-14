@@ -130,13 +130,13 @@ a:hover {
 
 .menu {
     position: absolute;
-    top:28px;
+    top: 28px;
     right: 30px;
     background-color: transparent;
     height: 4px;
     width: 10px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px white;
+    box-shadow: 0px 0px 0px white;
     z-index: -1;
     transition: 400ms ease-in-out 0s;
 }
@@ -156,6 +156,10 @@ a:hover {
     transition: 400ms ease-in-out 0s;
 }
 
+.items-menu {
+    margin: 20px 0;
+}
+
 .menu-items ul {
     list-style-type: none;
 }
@@ -167,6 +171,11 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 40px;
+    background-color: transparent;
+}
+
+.menu-items ul li a:hover {
+    background-color: #9ad1d4;
 }
 
 /*#endregion*/
